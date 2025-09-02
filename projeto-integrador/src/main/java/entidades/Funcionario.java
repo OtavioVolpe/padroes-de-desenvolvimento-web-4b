@@ -13,5 +13,5 @@ public class Funcionario {
 
     public String nome;
 
-    public Integer cpf;
+    public String cpf;
 }
