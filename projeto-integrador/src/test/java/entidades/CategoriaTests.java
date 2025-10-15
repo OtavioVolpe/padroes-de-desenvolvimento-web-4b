@@ -7,8 +7,8 @@ import jakarta.transaction.Transactional;
 
 @QuarkusTest
 public class CategoriaTests {
-    @Test
     @Transactional
+    @Test
     public void testSalvaUmaCategoria() {
         Categoria categoria = new Categoria();
         categoria.nome = "Doces";
