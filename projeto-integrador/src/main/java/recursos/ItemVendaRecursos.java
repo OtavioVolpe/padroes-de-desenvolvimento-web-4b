@@ -4,6 +4,6 @@ package recursos;
 public class ItemVendaRecursos {
     @GET
     public List<Produto> listar() {
-        return Produto.listAll(Sort.ascending("nome"));
+        return Produto.listAll(Sort.ascending("valorParcial"));
     }
 }
