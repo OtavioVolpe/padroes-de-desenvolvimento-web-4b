@@ -1,9 +1,16 @@
 package recursos;
 
+import java.util.List;
+
+import entidades.Venda;
+import io.quarkus.panache.common.Sort;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+
 @Path("vendas")
 public class VendaRecursos {
     @GET
-    public List<Produto> listar() {
-        return Produto.listAll(Sort.ascending("horario"));
+    public List<Venda> listar() {
+        return Venda.listAll(Sort.ascending("horario"));
     }
 }
