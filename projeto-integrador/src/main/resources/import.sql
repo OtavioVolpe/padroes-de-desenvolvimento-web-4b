@@ -79,5 +79,4 @@ INSERT INTO ItemVenda (valorParcial, quantidadeParcial, produto_codigo) VALUES
 (25.00, 1, 7),
 (6.99, 1, 8),
 (19.98, 2, 9),
-(55.50, 10, 10),
-(18.50, 1, 11);
+(55.50, 10, 10);

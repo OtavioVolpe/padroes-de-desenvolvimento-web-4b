@@ -10,7 +10,7 @@ import jakarta.ws.rs.Path;
 @Path("categorias")
 public class CategoriaRecurso {
     @GET
-    public List<Categoria> listar() {
+        public List<Categoria> listar() {
         return Categoria.listAll(Sort.ascending("nome"));
     }
 }
